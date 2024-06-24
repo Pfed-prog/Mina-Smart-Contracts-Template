@@ -37,7 +37,7 @@ let initialCommitment: Field = Field(0);
   If a participant can guess the preimage of a hash, they will be granted one point :)
 */
 
-class Leaderboard extends SmartContract {
+export class Leaderboard extends SmartContract {
   // a commitment is a cryptographic primitive that allows us to commit to data, with the ability to "reveal" it later
   @state(Field) commitment = State<Field>();
 
