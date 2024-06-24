@@ -1,0 +1,53 @@
+{
+  "name": "@/mina-template",
+  "version": "0.0.1",
+  "description": "",
+  "author": "pavel fedotov pfedprog",
+  "license": "Apache-2.0",
+  "keywords": [
+    "mina-zkapp",
+    "mina-zk-app",
+    "mina-dapp",
+    "zkapp",
+    "zk",
+    "zkp",
+    "zkps",
+    "pinsave",
+    "pin-save",
+    "nfts",
+    "cryptography",
+    "blockchain",
+    "web3",
+    "mina"
+  ],
+  "type": "module",
+  "main": "build/src/index.js",
+  "types": "build/src/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "buildw": "tsc --watch",
+    "format": "prettier --write --ignore-unknown **/*",
+    "coverage": "node --experimental-vm-modules node_modules/jest/bin/jest.js --coverage",
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js",
+    "compile": "rm -rf build && tsc",
+    "pub": "yarn compile & yarn publish",
+    "lint": "npx eslint src/* --fix"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.16.4",
+    "@babel/preset-typescript": "^7.16.0",
+    "@jest/globals": "^29.7.0",
+    "@types/jest": "^27.0.3",
+    "@typescript-eslint/eslint-plugin": "^5.5.0",
+    "@typescript-eslint/parser": "^5.5.0",
+    "eslint": "^8.7.0",
+    "jest": "^27.3.1",
+    "prettier": "^3.2.5",
+    "ts-jest": "^27.0.7",
+    "typescript": "^4.7.2"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "o1js": "1.3.1"
+  }
+}
