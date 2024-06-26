@@ -3053,10 +3053,10 @@ npm-run-path@^4.0.1:
   dependencies:
     path-key "^3.0.0"
 
-o1js@1.3.1:
-  version "1.3.1"
-  resolved "https://registry.yarnpkg.com/o1js/-/o1js-1.3.1.tgz#2d45c3b119b5b066baeae70b59f433e5dc9fd270"
-  integrity sha512-FOhkN0/byoWm/Q0F+2y1eHTeKYy22Lcx1oIn4xITLWPsEX6s01B79qP0pJQBPKZW+ev0xmmY/8Jf2pBuWA53fQ==
+o1js@1.4.0:
+  version "1.4.0"
+  resolved "https://registry.yarnpkg.com/o1js/-/o1js-1.4.0.tgz#18336cd786b4d768e88df357a1a30d24cac00a09"
+  integrity sha512-n4W1tukEF1ztfsKOoa29PIc9zY6SBMhQI6lXQL+pZ86/0XO3VqE9Gc8GOlxv+zV9+BJWM2c1N25bob72Kt/+EQ==
   dependencies:
     blakejs "1.2.1"
     cachedir "^2.4.0"
