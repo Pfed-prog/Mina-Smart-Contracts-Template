@@ -3247,10 +3247,10 @@ npm-run-path@^4.0.1:
   dependencies:
     path-key "^3.0.0"
 
-o1js@1.5.1:
-  version "1.5.1"
-  resolved "https://registry.yarnpkg.com/o1js/-/o1js-1.5.1.tgz#24dfc24a015dd123ac80a3c57df0e1d971b82315"
-  integrity sha512-SUYqNXBKZDMkAKErS2q3Nqmzj1vXg43Uorj5a9GqwtKJyIFOsiLbrKmOfS2Ge4EkbbIjpnZb0+2KtokI4b9UDQ==
+o1js@1.6.0:
+  version "1.6.0"
+  resolved "https://registry.yarnpkg.com/o1js/-/o1js-1.6.0.tgz#93e1c29edf45d42c5938ba1311cd7befeeeb4504"
+  integrity sha512-5pHCM0qIHG+MhLlcRJZRK8YFC7MOCjlxwSYbmrLDKER267eUip7JRDtWATytIRxtCPqOBvqKeJb0hR/mvjWxqg==
   dependencies:
     blakejs "1.2.1"
     cachedir "^2.4.0"
